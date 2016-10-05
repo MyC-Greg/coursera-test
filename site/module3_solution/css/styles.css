@@ -1,0 +1,61 @@
+body{
+	font-family: 'Poppins', sans-serif;
+  background-color: #fbf7e9;
+  color: #808000;
+} 
+
+/** HEADER **/
+#header-nav h1 {
+  font-family: 'Libre Baskerville', serif;
+  color: #808000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px ;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#header-nav {
+  background-color: #FAEBD7;
+}
+#nav-list a {
+  text-align: center;
+  color: #FAEBD7;
+  background-color: #808000;
+}
+#nav-list a:hover{
+  background-color: #FAEBD7;
+  color: #808000;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #808000;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #808000;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+}
+
+/* END HEADER*/
+
+/* MAIN CONTENT*/
+hr {
+  border-top: 1.5px solid #808000;
+}
+h3 {
+  background-color: #FAEBD7;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.last-line{
+  font-style: italic;
+}
